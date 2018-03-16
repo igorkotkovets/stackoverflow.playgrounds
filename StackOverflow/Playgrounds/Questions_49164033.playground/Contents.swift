@@ -1,6 +1,6 @@
 //: Playground - noun: a place where people can play
 
 import UIKit
-import Swinject
+import PromiseKit
 
 var str = "Hello, playground"

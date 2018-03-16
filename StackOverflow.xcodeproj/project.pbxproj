@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45CA40C997F6A55D349821F1 /* Pods_StackOverflowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761C7EFF1864DC6E72BA989B /* Pods_StackOverflowUITests.framework */; };
-		920009C9C6F21BA2125E3359 /* Pods_StackOverflow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97A1A9FD831990FC9332A8C0 /* Pods_StackOverflow.framework */; };
-		C00ACFEF2FF9CDE6327327BD /* Pods_StackOverflowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F7096A4DBEAE45A6F1FEB2 /* Pods_StackOverflowTests.framework */; };
 		D8CBD6B120599C3A006433A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CBD6B020599C3A006433A4 /* AppDelegate.swift */; };
 		D8CBD6B320599C3A006433A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CBD6B220599C3A006433A4 /* ViewController.swift */; };
 		D8CBD6B620599C3A006433A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8CBD6B420599C3A006433A4 /* Main.storyboard */; };
@@ -37,13 +34,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D8D36E8E205C017A008E2DD6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		095D0C4C6F5D3AE4B1E54764 /* Pods-StackOverflowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackOverflowUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StackOverflowUITests/Pods-StackOverflowUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		66536A786809405635B313D1 /* Pods-StackOverflowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackOverflowUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StackOverflowUITests/Pods-StackOverflowUITests.release.xcconfig"; sourceTree = "<group>"; };
-		761C7EFF1864DC6E72BA989B /* Pods_StackOverflowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StackOverflowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		81EDA00A586C3377D25D53DC /* Pods-StackOverflowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackOverflowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StackOverflowTests/Pods-StackOverflowTests.release.xcconfig"; sourceTree = "<group>"; };
-		83AAE57E9301F4BB66357D70 /* Pods-StackOverflow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackOverflow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StackOverflow/Pods-StackOverflow.debug.xcconfig"; sourceTree = "<group>"; };
-		97A1A9FD831990FC9332A8C0 /* Pods_StackOverflow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StackOverflow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8CBD6AD20599C3A006433A4 /* StackOverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackOverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8CBD6B020599C3A006433A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8CBD6B220599C3A006433A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,9 +63,6 @@
 		D8CBD6D320599C3A006433A4 /* StackOverflowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackOverflowUITests.swift; sourceTree = "<group>"; };
 		D8CBD6D520599C3A006433A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8CBD6E220599F43006433A4 /* Questions_49164033.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Questions_49164033.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		DA1743CB0F0403B501C47F66 /* Pods-StackOverflowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackOverflowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StackOverflowTests/Pods-StackOverflowTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DE680A6E72DEF8CF5CAF0295 /* Pods-StackOverflow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackOverflow.release.xcconfig"; path = "Pods/Target Support Files/Pods-StackOverflow/Pods-StackOverflow.release.xcconfig"; sourceTree = "<group>"; };
-		E8F7096A4DBEAE45A6F1FEB2 /* Pods_StackOverflowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StackOverflowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				920009C9C6F21BA2125E3359 /* Pods_StackOverflow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C00ACFEF2FF9CDE6327327BD /* Pods_StackOverflowTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,26 +84,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45CA40C997F6A55D349821F1 /* Pods_StackOverflowUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9A480D2364536C8DB4593C08 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				83AAE57E9301F4BB66357D70 /* Pods-StackOverflow.debug.xcconfig */,
-				DE680A6E72DEF8CF5CAF0295 /* Pods-StackOverflow.release.xcconfig */,
-				DA1743CB0F0403B501C47F66 /* Pods-StackOverflowTests.debug.xcconfig */,
-				81EDA00A586C3377D25D53DC /* Pods-StackOverflowTests.release.xcconfig */,
-				095D0C4C6F5D3AE4B1E54764 /* Pods-StackOverflowUITests.debug.xcconfig */,
-				66536A786809405635B313D1 /* Pods-StackOverflowUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		D8CBD6A420599C39006433A4 = {
 			isa = PBXGroup;
 			children = (
@@ -113,8 +98,6 @@
 				D8CBD6C720599C3A006433A4 /* StackOverflowTests */,
 				D8CBD6D220599C3A006433A4 /* StackOverflowUITests */,
 				D8CBD6AE20599C3A006433A4 /* Products */,
-				9A480D2364536C8DB4593C08 /* Pods */,
-				F46FAA5FE95645012D804904 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +114,7 @@
 		D8CBD6AF20599C3A006433A4 /* StackOverflow */ = {
 			isa = PBXGroup;
 			children = (
+				D8D37397205C1DCE008E2DD6 /* CarthageLibs */,
 				D8CBD6B020599C3A006433A4 /* AppDelegate.swift */,
 				D8CBD6B220599C3A006433A4 /* ViewController.swift */,
 				D8CBD6B420599C3A006433A4 /* Main.storyboard */,
@@ -169,14 +153,12 @@
 			path = StackOverflow/Playgrounds;
 			sourceTree = "<group>";
 		};
-		F46FAA5FE95645012D804904 /* Frameworks */ = {
+		D8D37397205C1DCE008E2DD6 /* CarthageLibs */ = {
 			isa = PBXGroup;
 			children = (
-				97A1A9FD831990FC9332A8C0 /* Pods_StackOverflow.framework */,
-				E8F7096A4DBEAE45A6F1FEB2 /* Pods_StackOverflowTests.framework */,
-				761C7EFF1864DC6E72BA989B /* Pods_StackOverflowUITests.framework */,
 			);
-			name = Frameworks;
+			name = CarthageLibs;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,12 +168,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8CBD6D820599C3A006433A4 /* Build configuration list for PBXNativeTarget "StackOverflow" */;
 			buildPhases = (
-				584D79310A784C824675031A /* [CP] Check Pods Manifest.lock */,
 				D8CBD6A920599C3A006433A4 /* Sources */,
 				D8CBD6AA20599C3A006433A4 /* Frameworks */,
 				D8CBD6AB20599C3A006433A4 /* Resources */,
-				C43B7D10E0EA20923EC20814 /* [CP] Embed Pods Frameworks */,
-				8E0F81B8F4AD0D272A2936FD /* [CP] Copy Pods Resources */,
+				D8D36E8E205C017A008E2DD6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -206,12 +186,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8CBD6DB20599C3A006433A4 /* Build configuration list for PBXNativeTarget "StackOverflowTests" */;
 			buildPhases = (
-				70E4E6B9398EB5982ED44F1E /* [CP] Check Pods Manifest.lock */,
 				D8CBD6C020599C3A006433A4 /* Sources */,
 				D8CBD6C120599C3A006433A4 /* Frameworks */,
 				D8CBD6C220599C3A006433A4 /* Resources */,
-				7C424628088E2B1E2E178587 /* [CP] Embed Pods Frameworks */,
-				B32B3F14F05F972C25D9E7BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,12 +204,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8CBD6DE20599C3A006433A4 /* Build configuration list for PBXNativeTarget "StackOverflowUITests" */;
 			buildPhases = (
-				39102C8729C23453DB034B0B /* [CP] Check Pods Manifest.lock */,
 				D8CBD6CB20599C3A006433A4 /* Sources */,
 				D8CBD6CC20599C3A006433A4 /* Frameworks */,
 				D8CBD6CD20599C3A006433A4 /* Resources */,
-				E02AEA1324028EBD6987F4C0 /* [CP] Embed Pods Frameworks */,
-				8843E91C0D74C5AF0EA83604 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -316,166 +290,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		39102C8729C23453DB034B0B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-StackOverflowUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		584D79310A784C824675031A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-StackOverflow-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		70E4E6B9398EB5982ED44F1E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-StackOverflowTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7C424628088E2B1E2E178587 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StackOverflowTests/Pods-StackOverflowTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8843E91C0D74C5AF0EA83604 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StackOverflowUITests/Pods-StackOverflowUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8E0F81B8F4AD0D272A2936FD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StackOverflow/Pods-StackOverflow-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B32B3F14F05F972C25D9E7BE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StackOverflowTests/Pods-StackOverflowTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C43B7D10E0EA20923EC20814 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-StackOverflow/Pods-StackOverflow-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
-				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StackOverflow/Pods-StackOverflow-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E02AEA1324028EBD6987F4C0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StackOverflowUITests/Pods-StackOverflowUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D8CBD6A920599C3A006433A4 /* Sources */ = {
@@ -648,11 +462,21 @@
 		};
 		D8CBD6D920599C3A006433A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83AAE57E9301F4BB66357D70 /* Pods-StackOverflow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L454S9SQH7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/PromiseKit/Carthage/Build/watchOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/PromiseKit/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/PromiseKit/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Checkouts/PromiseKit/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = StackOverflow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IK.StackOverflow;
@@ -664,11 +488,21 @@
 		};
 		D8CBD6DA20599C3A006433A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE680A6E72DEF8CF5CAF0295 /* Pods-StackOverflow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L454S9SQH7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/PromiseKit/Carthage/Build/watchOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/PromiseKit/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/PromiseKit/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Checkouts/PromiseKit/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = StackOverflow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IK.StackOverflow;
@@ -680,7 +514,6 @@
 		};
 		D8CBD6DC20599C3A006433A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA1743CB0F0403B501C47F66 /* Pods-StackOverflowTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -698,7 +531,6 @@
 		};
 		D8CBD6DD20599C3A006433A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81EDA00A586C3377D25D53DC /* Pods-StackOverflowTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -716,7 +548,6 @@
 		};
 		D8CBD6DF20599C3A006433A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 095D0C4C6F5D3AE4B1E54764 /* Pods-StackOverflowUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -733,7 +564,6 @@
 		};
 		D8CBD6E020599C3A006433A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66536A786809405635B313D1 /* Pods-StackOverflowUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
